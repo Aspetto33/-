@@ -1,7 +1,7 @@
 # 数据结构学习笔记
 ## 1 基本概念和术语
 
-![截屏2022-06-03 下午3.54.54](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午3.54.54.png)
+![截屏2022-06-03 下午3.54.54](/Users/yangqian/study/algorithm/data-structure/数据关系图.png)
 
 ### 1.1 数据
 
@@ -25,7 +25,7 @@
 
 ## 2 逻辑结构和物理结构
 
-![截屏2022-06-03 下午4.01.46](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.01.46.png)
+![截屏2022-06-03 下午4.01.46](/Users/yangqian/study/algorithm/data-structure/数据结构图.png)
 
 ### 2.1 逻辑结构
 
@@ -35,25 +35,25 @@
 
 集合结构中的数据元素除了同属于一个集合外，没有其他任何关系，如下图：
 
-![截屏2022-06-03 下午4.04.04](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.04.04.png)
+![截屏2022-06-03 下午4.04.04](/Users/yangqian/study/algorithm/data-structure/集合结构图.png)
 
 2）线性结构
 
 数据元素关系是一对一的，如下图：
 
-![截屏2022-06-03 下午4.04.55](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.04.55.png)
+![截屏2022-06-03 下午4.04.55](/Users/yangqian/study/algorithm/data-structure/线性结构图.png)
 
 3）树形结构
 
 一对多的层次关系，如下图：
 
-![截屏2022-06-03 下午4.05.39](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.05.39.png)
+![截屏2022-06-03 下午4.05.39](/Users/yangqian/study/algorithm/data-structure/树形结构图.png)
 
 4）图形结构
 
 多对多的关系，如下图：
 
-![截屏2022-06-03 下午4.06.24](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.06.24.png)
+![截屏2022-06-03 下午4.06.24](/Users/yangqian/study/algorithm/data-structure/图形结构图.png)
 
 ### 2.2 物理结构
 
@@ -63,13 +63,13 @@
 
 把数据元素存放在地址连续的存储单元里，数据见的逻辑关系和物理关系是一致的。例如数组。
 
-![截屏2022-06-03 下午4.07.58](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.07.58.png)
+![截屏2022-06-03 下午4.07.58](/Users/yangqian/study/algorithm/data-structure/顺序存储结构图.png)
 
 2）链式存储结构
 
 把数据元素存放在任意的存储单元里，这组存储单元是可以连续的，也可以是不连续的。因为数据元素的存储关系并不能反映其逻辑关系，因此需要使用指针存放数据元素的地址。
 
-![截屏2022-06-03 下午4.09.55](/Users/yangqian/Library/Application Support/typora-user-images/截屏2022-06-03 下午4.09.55.png)
+![截屏2022-06-03 下午4.09.55](/Users/yangqian/study/algorithm/data-structure/链式存储结构图.png)
 
 ## 3 抽象数据类型
 
