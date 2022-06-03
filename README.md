@@ -1,7 +1,7 @@
 # 数据结构学习笔记
 ## 1 基本概念和术语
 
-![数据关系图](/Users/yangqian/study/algorithm/data-structure/数据关系图.png)
+![数据关系图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E6%95%B0%E6%8D%AE%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
 
 ### 1.1 数据
 
