@@ -25,7 +25,7 @@
 
 ## 2 逻辑结构和物理结构
 
-![数据结构图](/Users/yangqian/study/algorithm/data-structure/数据结构图.png)
+![数据结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 ### 2.1 逻辑结构
 
@@ -35,25 +35,25 @@
 
 集合结构中的数据元素除了同属于一个集合外，没有其他任何关系，如下图：
 
-![集合结构图](/Users/yangqian/study/algorithm/data-structure/集合结构图.png)
+![集合结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E9%9B%86%E5%90%88%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 2）线性结构
 
 数据元素关系是一对一的，如下图：
 
-![线性结构图](/Users/yangqian/study/algorithm/data-structure/线性结构图.png)
+![线性结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E7%BA%BF%E6%80%A7%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 3）树形结构
 
 一对多的层次关系，如下图：
 
-![树形结构图](/Users/yangqian/study/algorithm/data-structure/树形结构图.png)
+![树形结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E6%A0%91%E5%BD%A2%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 4）图形结构
 
 多对多的关系，如下图：
 
-![图形结构图](/Users/yangqian/study/algorithm/data-structure/图形结构图.png)
+![图形结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E5%9B%BE%E5%BD%A2%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 ### 2.2 物理结构
 
@@ -63,13 +63,13 @@
 
 把数据元素存放在地址连续的存储单元里，数据见的逻辑关系和物理关系是一致的。例如数组。
 
-![顺序存储结构图](/Users/yangqian/study/algorithm/data-structure/顺序存储结构图.png)
+![顺序存储结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E9%A1%BA%E5%BA%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 2）链式存储结构
 
 把数据元素存放在任意的存储单元里，这组存储单元是可以连续的，也可以是不连续的。因为数据元素的存储关系并不能反映其逻辑关系，因此需要使用指针存放数据元素的地址。
 
-![链式存储结构图](/Users/yangqian/study/algorithm/data-structure/链式存储结构图.png)
+![链式存储结构图](https://github.com/Aspetto33/data-structure/blob/master/images/1-3/%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%E5%9B%BE.png)
 
 ## 3 抽象数据类型
 
