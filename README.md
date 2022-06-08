@@ -475,3 +475,99 @@ T（n）=O（f（n））。表示随问题规模n的增大，算法执行时间�
 先把前面元素的后继连接到后面元素上，再把后面元素的前驱连接到前面元素上。
 
 ![双向链表删除元素](https://github.com/Aspetto33/data-structure/blob/master/images/5/%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8%E5%88%A0%E9%99%A4%E5%85%83%E7%B4%A0.png)
+
+## 6 栈与队列
+
+### 6.1 栈的定义
+
+1）栈的定义
+
+栈是限定仅在表尾进行插入和删除操作的线性表。把允许插入和删除的一端称为栈顶，另一端称为栈底，不包含任何数据元素的栈称为空栈。栈又称为后进先出的线性表，简称LIFO结构。
+
+栈的插入操作，叫做进栈，也称压栈、入栈
+
+栈的删除操作，叫做出栈，也叫做弹栈
+
+2）进栈出栈变化形式
+
+栈对线性表的插入和删除的位置进行了限制，并没有对元素进出的时间进行限制。即，在不是所有元素都进栈的情况下，事先进去的元素也可以出栈。
+
+![123出栈次序](https://github.com/Aspetto33/data-structure/blob/master/images/6/123%E5%87%BA%E6%A0%88%E6%AC%A1%E5%BA%8F.png)
+
+### 6.2 栈的抽象数据类型
+
+![栈的抽象数据类型](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E6%A0%88%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.png)
+
+### 6.3 栈的顺序存储结构及实现
+
+1）栈的顺序存储结构
+
+![栈的结构定义](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E6%A0%88%E7%9A%84%E7%BB%93%E6%9E%84%E5%AE%9A%E4%B9%89.png)
+
+栈的各个情况如下图：
+
+![栈情况图](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E6%A0%88%E6%83%85%E5%86%B5%E5%9B%BE.png)
+
+2）栈的顺序存储结构-进栈操作
+
+![进栈操作图](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E8%BF%9B%E6%A0%88%E6%93%8D%E4%BD%9C%E5%9B%BE.png)
+
+![进栈操作代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E8%BF%9B%E6%A0%88%E6%93%8D%E4%BD%9C%E4%BB%A3%E7%A0%81.png)
+
+3）栈的顺序存储结构-出栈操作
+
+![出栈操作代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E5%87%BA%E6%A0%88%E6%93%8D%E4%BD%9C%E4%BB%A3%E7%A0%81.png)
+
+### 6.4 两栈共享空间
+
+![两栈共享空间图](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E4%B8%A4%E6%A0%88%E5%85%B1%E4%BA%AB%E5%9B%BE.png)
+
+![两栈共享空间结构代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E4%B8%A4%E6%A0%88%E5%85%B1%E4%BA%AB%E7%A9%BA%E9%97%B4%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81.png)
+
+![两栈共享空间进栈代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E4%B8%A4%E6%A0%88%E5%85%B1%E4%BA%AB%E7%A9%BA%E9%97%B4%E8%BF%9B%E6%A0%88%E4%BB%A3%E7%A0%81.png)
+
+![两栈共享空间出栈代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E4%B8%A4%E6%A0%88%E5%85%B1%E4%BA%AB%E7%A9%BA%E9%97%B4%E5%87%BA%E6%A0%88%E4%BB%A3%E7%A0%81.png)
+
+### 6.5 栈的链式存储结构及实现
+
+1）栈的链式存储结构
+
+![栈的链式存储结构图](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E6%A0%88%E7%9A%84%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+
+![链栈结构代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E9%93%BE%E6%A0%88%E7%BB%93%E6%9E%84%E4%BB%A3%E7%A0%81.png)
+
+2）栈的链式存储结构-进栈操作
+
+![链式存储进栈代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E8%BF%9B%E6%A0%88%E4%BB%A3%E7%A0%81.png)
+
+3）栈的链式存储结构-出栈操作
+
+![链式存储出栈代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E9%93%BE%E5%BC%8F%E5%AD%98%E5%82%A8%E5%87%BA%E6%A0%88%E4%BB%A3%E7%A0%81.png)
+
+如果栈的使用过程中元素变化不可预料，有时很小，有时很大，最好是使用链栈。反之，如果他的变化在可控范围内，用顺序栈较好一点。
+
+### 6.6 栈的应用-递归
+
+1）斐波那契数列实现
+
+![斐波那契数列递归代码](https://github.com/Aspetto33/data-structure/blob/master/images/6/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97%E9%80%92%E5%BD%92%E4%BB%A3%E7%A0%81.png)
+
+2）递归定义
+
+把一个直接调用自己或通过一系列的调用语句间接地调用自己的函数，称作递归函数。为防止递归程序陷入永不结束的无穷递归中，每个递归定义必须至少有一个条件，满足条件时递归不再进行，即不再引用自身而是返回值退出。
+
+### 6.7 栈的应用-四则运算表达式求值
+
+1）后缀（逆波兰）表示法定义
+
+叫后缀的原因在于所有的符号都是在要运算数字的后面出现
+
+2）后缀表达式计算结果
+
+规则：从左到右遍历表达式的每个数字和符号，遇到是数字就进栈，遇到是符号，就将处于栈顶两个数字出栈，进行运算，运算结果进栈，直到最终获得结果。
+
+3）中缀表达式转后缀表达式
+
+“9+（3-1）x3+10/2”->”9 3 1 -3*+10 2 / +“
+
+规则：从左到右遍历中缀表达式的每个数字和符号，若是数字就输出，即成为后缀表达式的一部分；若是符号，则判断其与栈顶符号的优先级，是右括号或优先级低于栈顶符号（乘除优先加减）则栈顶元素依次出栈并输出，并将当前符号进栈，一直到最终输出后缀表达式为止。
